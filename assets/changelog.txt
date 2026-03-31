@@ -1,4 +1,4 @@
-{bold}[Changelog]{end}
+{gold}{bold}[Changelog]{end}
 {green}{bold}Version 3.0.0{end}
     - Added a new command, {underline}/settings{end}
     - Added notice to expand terminal in both the changelog and Command Docs
