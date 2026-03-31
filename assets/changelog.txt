@@ -1,5 +1,5 @@
 {bold}[Changelog]{end}
-{green}{bold}Version 2.1.0{end}
+{green}{bold}Version 3.0.0{end}
     - Added a new command, {underline}/resizeTerminal{end}
     - Added notice to expand terminal in both the changelog and Command Docs
     - config.json now stores a config version number
