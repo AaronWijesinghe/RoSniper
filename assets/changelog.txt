@@ -1,9 +1,12 @@
 {bold}[Changelog]{end}
 {green}{bold}Version 3.0.0{end}
-    - Added a new command, {underline}/resizeTerminal{end}
+    - Added a new command, {underline}/settings{end}
     - Added notice to expand terminal in both the changelog and Command Docs
     - config.json now stores a config version number
         - This will be used to migrate config files if the config format is updated
+    - Most commands that modify settings have been removed, and are instead managed through the Settings menu
+        - This is accessible through {underline}/settings{end}.
+        - The new Settings menu is an interactive menu to change any setting within RoSniper without excessive command use.
     - The screen (finally) clears properly on macOS! macOS now has proper support for:
         - Switching between the fullscreen and windowed modes
         - Resizing the RoSniper window
