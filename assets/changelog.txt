@@ -14,6 +14,7 @@
     - Updated modules in pre-built binaries:
         - requests -> 2.33.1
         - PyInstaller -> 6.19.0
+    - Updated Python to 3.14.3 in pre-built binaries
 
 {bold}Version 2.0.0{end}
     - Added different cookie verification modes
