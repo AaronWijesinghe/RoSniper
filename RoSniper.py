@@ -507,23 +507,11 @@ def run_command(command):
                 open(f"/Users/{getpass.getuser()}/.zshrc", "w").writelines(zshrc)
                 wait(1, f"\n{underline}Successfully updated the <snipe> alias.{end}")
                 return
-    elif command.startswith("/donate "):
-        if not os.path.exists("./assets/donations.json"):
-            wait(1, f"{nl}{underline}The file ./assets/donations.json isn't present.{end}")
-            return
-
-        donations = json.loads(open("./assets/donations.json").read())
-        if arg in donations.keys():
-            print(f"{nl}{underline}Thank you for donating! Donations help keep RoSniper free for all! - @Awij126{end}")
-            wait(3, f"A gamepass for {bold}{arg} Robux{end} will open shortly.")
-            webbrowser.open(f"https://www.roblox.com/game-pass/{donations[arg]}")
-        else:
-            wait(1, f"{nl}{underline}Invalid donation amount. See /docs for valid donation amounts.{end}")
     elif command in ["/settings"]:
         change_settings()
     else:
         similar_commands = []
-        list_of_commands = ["/add", "/addaccount", "/alias", "/changelog", "/del", "/df", "/declinefirst", "/docs", "/donate", "/help", "/m", "/monitoring", "/logout", "/s", "/switch"]
+        list_of_commands = ["/add", "/addaccount", "/alias", "/changelog", "/del", "/df", "/declinefirst", "/docs", "/help", "/m", "/monitoring", "/logout", "/s", "/switch"]
         for cmd in list_of_commands:
             if command in cmd or cmd in command:
                 similar_commands += [cmd]

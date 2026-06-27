@@ -24,11 +24,6 @@
 {underline}/del{end} [RECENT_USER] | [RECENT_USER_INDEX] | *
     -> Deletes a specific user or all users from the Recent Users list
 
-{underline}/donate{end}
-    -> Opens a Roblox gamepass in your browser
-    -> Possible arguments: 10, 50, 100, 200, 500, 1000, 2000, 5000, 10000
-    -> {bold}Donating is not necessary to use RoSniper or any of its functionality, although I sincerely appreciate donations!{end}
-
 {underline}/logout{end} (*)
     -> Removes current account or all accounts from config.json
 

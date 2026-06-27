@@ -1,5 +1,13 @@
 {gold}{bold}[Changelog]{end}
-{green}{bold}Version 3.0.0{end}
+{green}{bold}Version 3.1.0{end}
+    - Removed the {underline}/donate{end} command
+        - The donation gamepasses don't work anymore due to new updates to Roblox.
+    - Updated modules in pre-built binaries:
+        - requests -> 2.34.2
+        - PyInstaller -> 6.21.0
+    - Updated Python to 3.14.6 in pre-built binaries
+
+{bold}Version 3.0.0{end}
     - Added a new command, {underline}/settings{end}
     - Added notice to expand terminal in both the changelog and Command Docs
     - config.json now stores a config version number
