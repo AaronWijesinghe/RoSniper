@@ -26,10 +26,6 @@ There is a build script in ./build/ that can be used to build RoSniper for macOS
 This creates an executable that anyone (even if they don't have Python) can run.<br>
 Clone this repository and build RoSniper, or just run the source code itself.<br>
 
-## Donations
-Donations will never be required to use any features of RoSniper.<br>
-If you enjoy using RoSniper, consider running `/donate ROBUX_AMOUNT` in RoSniper.
-
 # Showcase
 The source code for the revamped trailer can be found in ./trailer/!<br>
 
