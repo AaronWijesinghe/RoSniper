@@ -52,7 +52,7 @@ default_config = {
     "show_recent_users": True,
     "show_sniping_information": True,
     "show_tips": True,
-    "verify_method": "prog",
+    "verify_method": "prog"
 }
 
 def open_link(url):
