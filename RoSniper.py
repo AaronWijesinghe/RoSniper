@@ -61,7 +61,6 @@ def open_link(url):
     else:
         webbrowser.open(url)
 
-clear_cmd = "clear" if op == "Darwin" else "cls"
 def clear():
     print("\033[2J\033[3J\033[H", end='')
 
