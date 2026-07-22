@@ -27,9 +27,9 @@ This creates an executable that anyone (even if they don't have Python) can run.
 Clone this repository and build RoSniper, or just run the source code itself.<br>
 
 # Showcase
-The source code for the revamped trailer can be found in ./trailer/!<br>
+The source code for the trailer can be found in ./trailer/!<br>
 
-https://github.com/user-attachments/assets/bf9bcbfa-9228-4432-aef2-9baa2bb00024
+https://github.com/user-attachments/assets/ce0e1e30-59c1-4230-8b34-4dad33136a18
 
 # Streamer Showcase
 I have stream-sniped multiple streamers using RoSniper!<br>
