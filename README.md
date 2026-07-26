@@ -10,6 +10,11 @@ RoSniper uses Roblox's Presence API to check if a given user is online. If so, t
 **DISCLAIMER: You can ONLY join users that let you join them (ex: you're friended/following them, or the user being sniped has their joins on). RoSniper is NOT a RoSearcher clone or an injectable exploit.**<br>
 Tested on macOS 15+ and Python 3.13+, but RoSniper likely also works on previous versions of these programs/operating systems.
 
+## Notice
+On 5/4/2026, the Roblox Presence API has been limited by over 13x (1,320 requests/min -> 100 requests/min).<br>
+You may experience severe rate limiting using the default request delay setting.<br>
+It is recommended to set your Request Delay ([1] in /settings) to at least 0.6 seconds.<br>
+
 ## Current Features:
 - Snipe users you recently tried to join for easier access
 - Switch between multiple accounts with ease
