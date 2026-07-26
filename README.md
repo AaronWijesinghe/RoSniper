@@ -11,9 +11,9 @@ RoSniper uses Roblox's Presence API to check if a given user is online. If so, t
 Tested on macOS 15+ and Python 3.13+, but RoSniper likely also works on previous versions of these programs/operating systems.
 
 ## Notice
-On 5/4/2026, the Roblox Presence API has been limited by over 13x (1,320 requests/min -> 100 requests/min).<br>
+**On 5/4/2026, the Roblox Presence API has been limited by over 13x (1,320 requests/min -> 100 requests/min).**<br>
 You may experience severe rate limiting using the default request delay setting.<br>
-It is recommended to set your Request Delay ([1] in /settings) to at least 0.6 seconds.<br>
+It is recommended to set your request delay to **at least 0.6 seconds**. The latest source version has a default request delay of 1.0 seconds.<br>
 Source: https://devforum.roblox.com/t/roblox-data-stewardship-principles-cookie-based-api-update/4579220<br>
 
 ## Current Features:

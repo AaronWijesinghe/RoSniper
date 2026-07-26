@@ -43,7 +43,7 @@ errors = {
 default_config = {
     "config_version": 1,
     "cookies": [],
-    "delay": 0.01,
+    "delay": 1,
     "easter_egg_enabled": False,
     "easter_egg_user": "",
     "recent_users": [],
